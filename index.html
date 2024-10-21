@@ -1,29 +1,69 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <nav class="navbar">
+
+    <nav id="navbar">
+
         <span class = "span-nav-principal"> <img src="img/truck.png"> Rastreio Xpress</span>
+
         <div class="opcoes-menu">
+
            
+
             <p> Home </p>
+
             <p> Sobre nós </p>
+
             <p> Parceiros </p>
+
             <p> Ajuda </p>
+
             
-        </div>
-        <div class="esquerda">
-            <span id="span-btn-entrar"> Entrar </span>
-            <span id="span-btn-cadastrar"> Cadastrar </span>
+
         </div>
 
+        <div class="esquerda">
+
+            <span id="span-btn-entrar"> Entrar </span>
+
+            <span id="span-btn-cadastrar"> Cadastrar </span>
+
+        </div>
+
+
+
     </nav>
-    <main></main>
-    <section></section>
+
+    <main id="central">
+       <div class="test">
+          <p>
+              Rastreie seu Pedido!
+          </p>
+       
+          <form action="/search" method="get">
+              <label for="search">Search for:</label><br>
+              <input type="text" id="search" name="query" placeholder="Enter search term" required><br><br>
+              <input type="submit" value="Search">
+          </form>
+           <img src = "img/boxes.svg">
+       </div>
+        
+    </main>
+
 </body>
+
 </html>
