@@ -1,0 +1,173 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#navbar {
+    position: fixed; /* Nav bar continua na tela após scroll */
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray; /* Combina border em uma linha */
+    color: #004AAD;
+    font-family: 'Helvetica Neue Bold', sans-serif;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Três colunas: esquerda, centro, direita */
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    padding: 10px;
+    align-content: center;
+    z-index: 10;
+    background: white;
+}
+
+.opcoes-menu {
+    justify-content: center;
+    display: flex; /* Alinha os itens do menu no centro da coluna */
+    gap: 20px;
+}
+
+.opcoes-menu p {
+    margin: 10px;
+}
+
+.span-nav-principal {
+    align-items: center;
+    display: flex;
+    justify-self: start;
+}
+
+.span-nav-principal img {
+    height: 60px;
+    width: 90px;
+    margin: 20px;
+}
+
+#span-btn-entrar {
+    width: auto;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px 25px;
+    color: #2BC866;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#span-btn-cadastrar {
+    width: auto;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px 40px;
+    background-color: #1A9047;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    display: flex;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#span-btn-entrar:hover {
+    background-color: #2BC866; /* Muda a cor de fundo ao passar o mouse */
+    color: white; /* Muda a cor do texto */
+}
+
+#span-btn-cadastrar:hover {
+    background-color: #2BC866; /* Muda a cor de fundo ao passar o mouse */
+    color: white; /* Muda a cor do texto */
+}
+
+/* Efeito de clique */
+#span-btn-entrar:active {
+    background-color: #004AAD; /* Cor ao ser clicado */
+    color: white;
+}
+
+#span-btn-cadastrar:active {
+    background-color: #004AAD; /* Cor ao ser clicado */
+    color: white;
+}
+.esquerda {
+    justify-self: end;
+    display: flex;
+    margin: 30px;
+}
+
+#span-btn-entrar, #span-btn-cadastrar {
+    margin-left: 10px; /* Espaçamento entre os botões */
+}
+
+main {
+    height: 100%;
+    align-items: center;  /* Alinha os itens verticalmente no centro */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#span_img_bottom {
+    position: relative;
+    top: 25vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+#request_search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#search{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    height: 2vh;
+    width: 600px;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+
+#label_rastreio {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #2BC866;
+}
+
+#btn_rastrear{
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    background-color: #697882;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#btn_rastrear img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 12px;
+}
