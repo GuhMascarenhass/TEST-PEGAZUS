@@ -1,71 +1,110 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-BR">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Hello, World!</title>
-  <link rel="stylesheet" href="styles/help.css">
+    <meta charset="UTF-8">
+    <title>Help Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/style_help.css">
 </head>
 <body>
   <nav id="navbar">
-
-        <span class = "span-nav-principal"> <img src="img/truck.png"> Rastreio Xpress</span>
-
-        <div class="opcoes-menu">
-
-           
-
-            <p> Home </p>
-
-            <p> Sobre nós </p>
-
-            <p> Parceiros </p>
-
-            <p> Ajuda </p>
-
-            
-
-        </div>
-
-        <div class="esquerda">
-
-            <span id="span-btn-entrar"> Entrar </span>
-
-            <span id="span-btn-cadastrar"> Cadastrar </span>
-
-        </div>
-
-    </nav>
+      <span class="span-nav-principal">
+        <a href="Inicio.html">
+          <img src="img/truck.png" alt="Logo do Rastreio Xpress"> Rastreio Xpress
+      </a>
+      </span>
+      <div class="opcoes-menu">
+          <a href="Inicio.html">Home</a>
+          <a href="rastreio.html">Sobre nós</a>
+          <a href="Parceiros.html">Parceiros</a>
+          <a href="Help.html">Ajuda</a>
+      </div>
+      <div class="posicao-esquerda">
+          <span class="btn-entrar">Entrar</span>
+          <span class="btn-cadastrar">Cadastrar</span>
+      </div>
+  </nav>
 
   <main>
-    <div>  
-      <img src="img/need_help.svg" id="">
-      <p>
-      Precisa de ajuda com algum rastreio?
-      </p>
-      <p>
-      Veja o que fazer em casa um dos casos:
-      </p>
-    </div>      
-    
-    <div id="container-carrosel">
-        <div class="item-carrossel"> 1 </div>
-        <div class="item-carrossel"> 3 </div>
-        <div class="item-carrossel"> 2 </div>
-        <div class="item-carrossel"> 1 </div>
+    <div id="container-label-top">
+      <img src="img/need_help.svg" alt="Need Help">
+      <span class="center">
+        <p class="txt-bold">
+          Precisa de ajuda <br>
+          com algum rastreio?
+        </p>
+        Veja o que fazer em cada um dos casos:
+      </span>
     </div>
-    
-    
+
+    <div id="container-carrosel">
+      <img src="img/seta-esquerda.png" class="seta-carrosel">
+      <div class="item-carrossel">
+        <span class="icon-carrosel">
+          <img src="img/ampulheta.png" alt="Ampulheta">
+        </span>
+        <p class="title-carrosel">
+          Estou esperando uma encomenda
+        </p>
+        <p class="text-carrosel">
+          O remetente é a única pessoa<br>
+          que pode resolver problemas <br>
+          relacionados ao rastreio.
+          <br><br>
+          Sugerimos que peça para a <br>
+          pessoa responsável pelo envio<br>
+          entrar em contato com a <br>
+          transportadora seguindo as instruções para lojistas.
+        </p>
+      </div>
+
+      <div class="item-carrossel">
+        <span class="icon-carrosel">
+          <img src="img/bloquear.png" alt="Bloquear">
+        </span>
+        <p class="title-carrosel">
+          Enviei um pacote com etiqueta do Melhor Envio
+        </p>
+        <p class="text-carrosel">
+          É muito fácil encontrar ajuda. <br>
+          Veja só:<br><br>
+          <ul>
+            <li>Entre na sua conta Melhor Envio</li>
+            <li>Vá até a opção Ajuda</li>
+            <li>Escolha o assunto que melhor representa sua dúvida e encontre o suporte que precisa</li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="item-carrossel">
+        <span class="icon-carrosel">
+          <img src="img/recibo.png" alt="Recibo">
+        </span>
+        <p class="title-carrosel">
+          Comprei uma etiqueta diretamente com a transportadora
+        </p>
+        <p class="text-carrosel">
+          Sugerimos que entre em contato com a empresa responsável pelo envio.
+        </p>
+      </div>
+
+      <div class="item-carrossel">
+        <span class="icon-carrosel">
+          <img src="img/dinheiro.png" alt="Dinheiro">
+        </span>
+        <p class="title-carrosel">
+          Eu vou pagar alguma taxa de uso ou mensalidade?
+        </p>
+        <p class="text-carrosel">
+          Não! O Melhor Rastreio é <br>
+          totalmente gratuito e não cobra<br>
+          nenhuma mensalidade ou taxa <br>
+          pelos seus serviços.
+        </p>
+      </div>
+      <img src="img/seta-direita.png" class="seta-carrosel">
+    </div>
   </main>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </body>
 </html>

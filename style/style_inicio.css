@@ -1,0 +1,68 @@
+.button:hover {
+    background-color: #004AAD;
+    color: white;
+}
+
+.button:active {
+    background-color: #004AAD;
+    color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+}
+
+.item-conteiner {
+    height: 400px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#container-opcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-carrosel img {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.title-carrosel {
+    font-size: 20px;
+    color: #2BC866;
+    font-weight: 700;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    background-color: #2BC866;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.txt-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2BC866;
+    margin-top: 10px;
+}
+
+.txt-main-green {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #2BC866;
+}

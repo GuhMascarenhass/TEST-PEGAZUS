@@ -1,0 +1,46 @@
+#content_container {
+    width: 100vw;
+    background-color: #2BC866;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 60px;
+}
+
+.container_txts {
+    width: auto;
+}
+
+.container_empressas {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 10px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.container_empressas img {
+    height: 60px;
+    width: auto;
+}
+
+.txt-title {
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    width: auto;
+}
+
+#img-direita {
+    height: 400px;
+}
+
+.txt_principal {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

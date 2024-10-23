@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <title>Help Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/style_rastreio.css">
 </head>
 <body>
     <nav id="navbar">
         <span class="span-nav-principal">
-            <img src="img/truck.png" alt="Logo do Rastreio Xpress"> Rastreio Xpress
+            <a href="Inicio.html">
+                <img src="img/truck.png" alt="Logo do Rastreio Xpress"> Rastreio Xpress
+            </a>
         </span>
-
         <div class="opcoes-menu">
-            <p>Home</p>
-            <p>Sobre nós</p>
-            <p>Parceiros</p>
-            <p>Ajuda</p>
+            <a href="Inicio.html">Home</a>
+            <a href="rastreio.html">Sobre nós</a>
+            <a href="Parceiros.html">Parceiros</a>
+            <a href="Help.html">Ajuda</a>
         </div>
-
-        <div class="esquerda">
-            <span id="span-btn-entrar">Entrar</span>
-            <span id="span-btn-cadastrar">Cadastrar</span>
+        <div class="posicao-esquerda">
+            <span class="btn-entrar">Entrar</span>
+            <span class="btn-cadastrar">Cadastrar</span>
         </div>
     </nav>
 
@@ -34,11 +35,8 @@
             <form action="/search" method="get" class="center">
                 <input type="text" id="search" name="query" placeholder="Código de rastreamento" required>
                 <button type="submit" value="Buscar" id="btn_rastrear">
-                    <img src="img/gps.png" >
-                    <p class="bold">
-                        RASTREAR
-                    </p>
-
+                    <img src="img/gps.png">
+                    <p class="bold">RASTREAR</p>
                 </button>
             </form>
         </div>
